@@ -49,6 +49,10 @@ upload.onchange = function(){
         img.style.display='none'
     }
 }
+reset.addEventListener('click', function() {
+    resetValue(); // Call the function to reset filter values
+});
+
 let filters = document.querySelectorAll("ul li input")
 filters.forEach(filter =>{
     filter.addEventListener('input', function() {
