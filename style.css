@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Work+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;1,600&display=swap');
 
 *{
 margin: 0;
@@ -11,8 +11,17 @@ body {
     
     font-family: 'Work Sans', sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
    align-items: center;
+}
+.head {
+    color: white;
+    font-family:  'Work Sans', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    background-color: #284b63 ;
+    padding: 10px;
 }
 .container {
     background-color: #3d5a80;
